@@ -3,7 +3,7 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain_community.llms import OpenAI
 
-OpenAIAPIKey = "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"
+OpenAIAPIKey = st.secrets["OPENAI_API_KEY"]
 
 def GeneratePoetryWithLangChain(UserInput, Level):
     if Level == "Simple":
