@@ -27,8 +27,7 @@ A Streamlit application that generates customized poetry in multiple languages u
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/multilingual-poetry-bot.git
-   cd multilingual-poetry-bot
+   git clone https://github.com/destrohr/Poetry_Chatbot.
    ```
 
 2. Install the required packages:
