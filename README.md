@@ -14,7 +14,9 @@ A Streamlit application that generates customized poetry in multiple languages u
 
 ## Screenshot
 
-![Poetry Bot Interface](path/to/screenshot.png)
+Poetry Bot Interface
+<img width="1464" alt="Screenshot 2025-05-21 at 12 12 12 AM" src="https://github.com/user-attachments/assets/26dc9d29-f806-4693-95d1-0b1a5cd463df" />
+
 
 ## Requirements
 
@@ -79,6 +81,4 @@ You can extend this application by:
 
 This application requires an OpenAI API key. Please keep your API key secure and never commit it directly to your repository. Use environment variables or Streamlit's secrets management as shown in the installation instructions.
 
-## License
 
-[MIT License](LICENSE)
