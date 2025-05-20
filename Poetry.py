@@ -2,8 +2,10 @@ import streamlit as st
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain_openai import OpenAI
+OpenAI.model_rebuild()
 
 OpenAIAPIKey = st.secrets["OPENAI_API_KEY"]
+
 def GeneratePoetryWithLangChain(UserInput, Level, Language, Hints=""):
     if Language == "English":
         if Level == "Simple":
